@@ -1,1 +1,38 @@
-
+   <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <button onclick="menu.hidden^=1">☰</button>
+            <ul id="menu" hidden>
+                <li><a href="../comeco.html" style="list-style: none;">Sair</a></li>
+                <li><a href="../Verificador/index.html">Voltar</a></li>
+                <li><a href="../Analisador/index.html">Próximo</a></li>
+            </ul>
+        </div>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div id="tabuada">
+            <p>Insira um número: </p>
+            <input type="number" id="numero">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+        </div>
+        <div id="resultado">
+            
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Lucas Ângelo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
